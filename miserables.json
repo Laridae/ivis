@@ -2,7 +2,7 @@
   "nodes": [
     {"id": "Alpha", "group": 1},
     {"id": "Bravo", "group": 1},
-    {"id": "Charlie", "group": 1},
+    {"id": "Charlie", "group": 1}
   ],
   "links": [
     {"source": "Alpha", "target": "Bravo", "value": 1},
