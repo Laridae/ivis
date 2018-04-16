@@ -70,11 +70,11 @@ d3.json("miserables.json", function(error, graph) {
 
   simulation.force("link")
       .links(graph.links);
-      /* This ought reinitialize. 
+      // This ought reinitialize. 
       .linkDistance(function (d) {
            return d.linkDistance;
      })
-     */
+     
 
   function ticked() {
     link
