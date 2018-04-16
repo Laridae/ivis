@@ -70,10 +70,12 @@ d3.json("miserables.json", function(error, graph) {
 
   simulation.force("link")
       .links(graph.links);
-      // This ought reinitialize. 
+      // This ought reinitialize unique link.distance for each node. 
+      /*
       .linkDistance(function (d) {
            return d.linkDistance;
      })
+     */
      
 
   function ticked() {
