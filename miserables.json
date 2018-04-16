@@ -7,6 +7,6 @@
   "links": [
     {"source": "Alpha", "target": "Bravo", "value": 1},
     {"source": "Bravo", "target": "Charlie", "value": 1},
-    {"source": "Charlie", "target": "Alpha", "value": 1},
+    {"source": "Charlie", "target": "Alpha", "value": 1}
   ]
 }
