@@ -1,5 +1,18 @@
 {
   "nodes": [
+    {"id": "Alpha", "group": 1},
+    {"id": "Bravo", "group": 1},
+    {"id": "Charlie", "group": 1},
+  ],
+  "links": [
+    {"source": "Alpha", "target": "Bravo", "value": 1},
+    {"source": "Bravo", "target": "Charlie", "value": 1},
+    {"source": "Charlie", "target": "Alpha", "value": 1},
+  ]
+}
+/*
+{
+  "nodes": [
     {"id": "Myriel", "group": 1},
     {"id": "Napoleon", "group": 1},
     {"id": "Mlle.Baptistine", "group": 1},
@@ -335,3 +348,4 @@
     {"source": "Mme.Hucheloup", "target": "Enjolras", "value": 1}
   ]
 }
+*/
