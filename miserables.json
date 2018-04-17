@@ -6,7 +6,7 @@
   ],
   "links": [
     {"source": "Alpha", "target": "Bravo", "value": 1, "distance": 500},
-    {"source": "Bravo", "target": "Charlie", "value": 1 "distance": 1000},
+    {"source": "Bravo", "target": "Charlie", "value": 1 "distance": 200},
     {"source": "Charlie", "target": "Alpha", "value": 1, "distance": 800}
   ]
 }
