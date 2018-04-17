@@ -39,6 +39,8 @@ var simulation = d3.forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
 
+
+// HA!
 d3.json("miserables.json", function(error, graph) {
   if (error) throw error;
 
@@ -61,6 +63,19 @@ d3.json("miserables.json", function(error, graph) {
           .on("drag", dragged)
           .on("end", dragended));
 
+
+  // BIG CHUNK! We won't use the intermediate node.
+  links.forEach(function(link) {
+    var s = link.source = nodeById.get(link.source),
+        t = link.target = nodeById.get(link.target),
+        i = {}, // intermediate node
+        linkDist = link.distance;
+    nodes.push(i);
+    //console.log(linkDist);
+    links.push({source: s, target: i, linkDist:linkDist}, {source: i, target: t, linkDist:linkDist });
+    bilinks.push([s, i, t,linkDist]);
+  });
+
   node.append("title")
       .text(function(d) { return d.id; });
 
@@ -70,26 +85,40 @@ d3.json("miserables.json", function(error, graph) {
 
   simulation.force("link")
       .links(graph.links);
+
       // This ought reinitialize unique link.distance for each node. 
-      /*
-      .linkDistance(function (d) {
+      .linkDistance(function (d) {  // d ought be replaced
            return d.linkDistance;
      })
-     */
+     
      
 
   function ticked() {
+    // We replace the former with one using the positionLink func
+    link.attr("d", positionLink);
+    /* 
     link
         .attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
         .attr("x2", function(d) { return d.target.x; })
         .attr("y2", function(d) { return d.target.y; });
-
+    */
     node
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; });
   }
 });
+
+// These two are borrowed. Fairly straightforward.
+function positionLink(d) {
+  return "M" + d[0].x + "," + d[0].y
+       + "S" + d[1].x + "," + d[1].y
+       + " " + d[2].x + "," + d[2].y;
+}
+
+function positionNode(d) {
+  return "translate(" + d.x + "," + d.y + ")";
+}
 
 function dragstarted(d) {
   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
