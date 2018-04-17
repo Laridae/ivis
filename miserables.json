@@ -5,8 +5,8 @@
     {"id": "Charlie", "group": 1}
   ],
   "links": [
-    {"source": "Alpha", "target": "Bravo", "value": 1},
-    {"source": "Bravo", "target": "Charlie", "value": 1},
-    {"source": "Charlie", "target": "Alpha", "value": 1}
+    {"source": "Alpha", "target": "Bravo", "value": 1, "distance": 500},
+    {"source": "Bravo", "target": "Charlie", "value": 1 "distance": 1000},
+    {"source": "Charlie", "target": "Alpha", "value": 1, "distance": 800}
   ]
 }
