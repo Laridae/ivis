@@ -2,9 +2,10 @@
   "nodes": [
     {"id": "Alpha", "group": 1},
     {"id": "Bravo", "group": 2},
-    {"id": "Charlie", "group": 1},
-    {"id": "Delta", "group": 1},
-    {"id": "Echo", "group": 1}
+    {"id": "Charlie", "group": 3},
+    {"id": "Delta", "group": 4},
+    {"id": "Echo", "group": 5},
+    {"id": "Avatar", "group": 6}
   ],
   "links": [
     {"source": "Alpha", "target": "Bravo", "value": 5, "distance": 50},
