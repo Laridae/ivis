@@ -30,9 +30,9 @@
     {"id": "M", "group": 9},
     {"id": "C", "group": 9},
     {"id": "S", "group": 9},
-    {"id": "MP", "group": 9},
-    {"id": "V", "group": 9},
-    {"id": "SD", "group": 9},
+    {"id": "MP", "group": 6},
+    {"id": "V", "group": 7},
+    {"id": "SD", "group": 8},
     {"id": "Fi", "group": 9}
   ],
   "links": [
