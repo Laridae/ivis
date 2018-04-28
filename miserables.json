@@ -258,7 +258,7 @@
     {"source": "Fi", "target": "Eget bruk av narkotika ska tillåtas", "value": 5, "distance": 200},
     {"source": "Fi", "target": "Inga fler religiösa friskolor ska tillåtas", "value": 5, "distance": 200}, 
     {"source": "Fi", "target": "Tiggeri ska förbjudas", "value": 5, "distance": 200},
-    {"source": "FiL", "target": "Vinster i välfärden ska förbjudas", "value": 5, "distance": 200},
+    {"source": "Fi", "target": "Vinster i välfärden ska förbjudas", "value": 5, "distance": 200},
     {"source": "Fi", "target": "Polisen ska få bättre tillgång till kameraövervakning", "value": 1, "distance": 200},
     {"source": "Fi", "target": "Varje form av stöd till terrorism ska kriminaliseras", "value": 5, "distance": 200},
     {"source": "Fi", "target": "Rut-avdraget ska tredubblas", "value": 5, "distance": 200}
