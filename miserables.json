@@ -33,8 +33,7 @@
     {"id": "MP", "group": 9},
     {"id": "V", "group": 9},
     {"id": "SD", "group": 9},
-    {"id": "Fi", "group": 9},
-    {"id": "Avatar", "group": 10}
+    {"id": "Fi", "group": 9}
   ],
   "links": [
     {"source": "KD", "target": "Klimatpolitiken ska överordnas annan politik", "value": 5, "distance": 200},
