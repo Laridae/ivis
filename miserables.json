@@ -87,7 +87,6 @@
     {"source": "L", "target": "Polisen ska få bättre tillgång till kameraövervakning", "value": 1, "distance": 200},
     {"source": "L", "target": "Varje form av stöd till terrorism ska kriminaliseras", "value": 5, "distance": 200},
     {"source": "L", "target": "Rut-avdraget ska tredubblas", "value": 5, "distance": 200},
-    
     {"source": "M", "target": "Klimatpolitiken ska överordnas annan politik", "value": 5, "distance": 100},
     {"source": "M", "target": "Den obligatoriska värnplikten ska återinföras", "value": 5, "distance": 200},
     {"source": "M", "target": "Fler pappamånader ska införas", "value": 1, "distance": 200},
@@ -113,7 +112,6 @@
     {"source": "M", "target": "Polisen ska få bättre tillgång till kameraövervakning", "value": 1, "distance": 200},
     {"source": "M", "target": "Varje form av stöd till terrorism ska kriminaliseras", "value": 5, "distance": 200},
     {"source": "M", "target": "Rut-avdraget ska tredubblas", "value": 5, "distance": 200},
-    
     {"source": "C", "target": "Klimatpolitiken ska överordnas annan politik", "value": 5, "distance": 100},
     {"source": "C", "target": "Den obligatoriska värnplikten ska återinföras", "value": 5, "distance": 200},
     {"source": "C", "target": "Fler pappamånader ska införas", "value": 1, "distance": 200},
@@ -139,7 +137,6 @@
     {"source": "C", "target": "Polisen ska få bättre tillgång till kameraövervakning", "value": 1, "distance": 200},
     {"source": "C", "target": "Varje form av stöd till terrorism ska kriminaliseras", "value": 5, "distance": 200},
     {"source": "C", "target": "Rut-avdraget ska tredubblas", "value": 5, "distance": 200},
-    
     {"source": "S", "target": "Klimatpolitiken ska överordnas annan politik", "value": 5, "distance": 100},
     {"source": "S", "target": "Den obligatoriska värnplikten ska återinföras", "value": 5, "distance": 200},
     {"source": "S", "target": "Fler pappamånader ska införas", "value": 1, "distance": 200},
@@ -165,7 +162,6 @@
     {"source": "S", "target": "Polisen ska få bättre tillgång till kameraövervakning", "value": 1, "distance": 200},
     {"source": "S", "target": "Varje form av stöd till terrorism ska kriminaliseras", "value": 5, "distance": 200},
     {"source": "S", "target": "Rut-avdraget ska tredubblas", "value": 5, "distance": 200},
-    
     {"source": "MP", "target": "Klimatpolitiken ska överordnas annan politik", "value": 5, "distance": 100},
     {"source": "MP", "target": "Den obligatoriska värnplikten ska återinföras", "value": 5, "distance": 200},
     {"source": "MP", "target": "Fler pappamånader ska införas", "value": 1, "distance": 200},
@@ -191,7 +187,6 @@
     {"source": "MP", "target": "Polisen ska få bättre tillgång till kameraövervakning", "value": 1, "distance": 200},
     {"source": "MP", "target": "Varje form av stöd till terrorism ska kriminaliseras", "value": 5, "distance": 200},
     {"source": "MP", "target": "Rut-avdraget ska tredubblas", "value": 5, "distance": 200},
-    
     {"source": "V", "target": "Klimatpolitiken ska överordnas annan politik", "value": 5, "distance": 100},
     {"source": "V", "target": "Den obligatoriska värnplikten ska återinföras", "value": 5, "distance": 200},
     {"source": "V", "target": "Fler pappamånader ska införas", "value": 1, "distance": 200},
@@ -217,7 +212,6 @@
     {"source": "V", "target": "Polisen ska få bättre tillgång till kameraövervakning", "value": 1, "distance": 200},
     {"source": "V", "target": "Varje form av stöd till terrorism ska kriminaliseras", "value": 5, "distance": 200},
     {"source": "V", "target": "Rut-avdraget ska tredubblas", "value": 5, "distance": 200},
-    
     {"source": "SD", "target": "Klimatpolitiken ska överordnas annan politik", "value": 5, "distance": 100},
     {"source": "SD", "target": "Den obligatoriska värnplikten ska återinföras", "value": 5, "distance": 200},
     {"source": "SD", "target": "Fler pappamånader ska införas", "value": 1, "distance": 200},
@@ -243,7 +237,6 @@
     {"source": "SD", "target": "Polisen ska få bättre tillgång till kameraövervakning", "value": 1, "distance": 200},
     {"source": "SD", "target": "Varje form av stöd till terrorism ska kriminaliseras", "value": 5, "distance": 200},
     {"source": "SD", "target": "Rut-avdraget ska tredubblas", "value": 5, "distance": 200},
-    
     {"source": "Fi", "target": "Klimatpolitiken ska överordnas annan politik", "value": 5, "distance": 100},
     {"source": "Fi", "target": "Den obligatoriska värnplikten ska återinföras", "value": 5, "distance": 200},
     {"source": "Fi", "target": "Fler pappamånader ska införas", "value": 1, "distance": 200},
