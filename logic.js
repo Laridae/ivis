@@ -14,6 +14,8 @@ function show_next_question() {
  document.getElementById("question" + currentQ).setAttribute("class", "question inactive");   //current
  document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
  currentQ = currentQ + 1;
- // We want to change group of currentQ to 'dark green'
+ // We want to change group of [the node] to 'dark green'
+ // Trick is that the id is currently "Klimatpolitik bör överordnas..." which can't be incremented.
+ // TODO: remake so howering with cursor above text still shows text, but the id is a number.
  document.getElementById("question" + currentQ).setAttribute("group", "5"); 
 }
