@@ -4,9 +4,7 @@ function start_question(){
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   //do work
-
-document.getElementById("question1").setAttribute("class", "question active"); //next
-
+  document.getElementById("question1").setAttribute("class", "question active"); //next
 });
 
 
