@@ -19,6 +19,6 @@ function show_next_question() {
  // TODO: remake so howering with cursor above text still shows text, but the id is a number.
  // document.getElementById("question" + currentQ).setAttribute("group", "5"); //remainder, "question" =/= node
  // svg.selectAll("circle").data().style("fill", "red") //Change the colour of currentNode to dark green. 
- svg.select("circle:nth-child("currentQ")").style("fill", "green")
+ svg.select("circle:nth-child("+"currentQ"+")").style("fill", "green")
  
 }
