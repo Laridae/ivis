@@ -1,7 +1,9 @@
 body {
-    
-    div.question = display: none;
     width: 800px;
     margin: 0 auto;
     text-align: justify;
+}
+
+div.question{
+    display: none;
 }
