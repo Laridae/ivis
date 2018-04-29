@@ -9,5 +9,6 @@ div.question{
 }
 
 div.question.active{
-    display: block
+    display: block   
+        document.getElementById("question" + d).setAttribute("class", "question inactive");
 }
