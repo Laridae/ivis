@@ -2,7 +2,9 @@ function start_question(){
  //tick
 }
 
-document.getElementById("question" + (d+1)).setAttribute("class", "question active"); //next
+document.getElementById("question" + (question1)).setAttribute("class", "question active"); //next
+
+
 
 function show_next_question(d) {
  document.getElementById("question" + d).setAttribute("class", "question inactive");   //current
