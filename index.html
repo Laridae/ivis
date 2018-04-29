@@ -116,7 +116,7 @@ d3.json("miserables.json", function(error, graph) {
           .on("end", dragended));
 
   node.append("title")
-      .text(function(d) { return d.title; });
+      .text(function(d) { return d.id; });
 
   simulation
       .nodes(graph.nodes)
