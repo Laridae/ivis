@@ -18,6 +18,7 @@ function show_next_question() {
  // Trick is that the id is currently "Klimatpolitik bör överordnas..." which can't be incremented.
  // TODO: remake so howering with cursor above text still shows text, but the id is a number.
  // document.getElementById("question" + currentQ).setAttribute("group", "5"); //remainder, "question" =/= node
- svg.selectAll("circle").style("fill", "red") //Change the colour of currentNode to dark green. 
+ // svg.selectAll("circle").data().style("fill", "red") //Change the colour of currentNode to dark green. 
+ svg.select("circle:nth-child(2)").style("fill", "yellow")
  
 }
