@@ -9,5 +9,5 @@ div.question{
 }
 
 div.question.active{
-    display: all
+    display: block
 }
