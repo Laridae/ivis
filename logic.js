@@ -2,7 +2,7 @@ function start_question(){
  //tick
 }
 
-var d = 1;
+var currentQ = 1;
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   //do work
@@ -10,8 +10,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 });
 
 function show_next_question() {
- console.log(d);
- document.getElementById("question" + d).setAttribute("class", "question inactive");   //current
- document.getElementById("question" + (d+1)).setAttribute("class", "question active"); //next
- d = d + 1;
+ console.log(currentQ);
+ document.getElementById("question" + currentQ).setAttribute("class", "question inactive");   //current
+ document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
+ currentQ = currentQ + 1;
+ // We want to change group of currentQ to 'dark green'
+ document.getElementById("question" + currentQ).setAttribute("group", "5"); 
 }
