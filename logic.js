@@ -1,1 +1,1 @@
-
+alert("Du har virus!")
