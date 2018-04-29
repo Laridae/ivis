@@ -2,7 +2,7 @@ function start_question(){
  //tick
 }
 
-document.getElementById("question" + (question1)).setAttribute("class", "question active"); //next
+document.getElementById("question" + (fråga1)).setAttribute("class", "question active"); //next
 
 
 
