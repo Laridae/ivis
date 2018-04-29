@@ -7,3 +7,7 @@ body {
 div.question{
     display: none;
 }
+
+div.question.active{
+    div.display: all
+}
