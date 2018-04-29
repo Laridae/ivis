@@ -17,5 +17,7 @@ function show_next_question() {
  // We want to change group of [the node] to 'dark green'
  // Trick is that the id is currently "Klimatpolitik bör överordnas..." which can't be incremented.
  // TODO: remake so howering with cursor above text still shows text, but the id is a number.
- document.getElementById("question" + currentQ).setAttribute("group", "5"); 
+ // document.getElementById("question" + currentQ).setAttribute("group", "5"); //remainder, "question" =/= node
+ svg.select("circle").style("fill", "red") //Change the colour of currentNode to dark green. />
+ 
 }
