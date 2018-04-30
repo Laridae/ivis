@@ -25,7 +25,7 @@ function show_next_question() {
    document.getElementById("question" + currentQ).setAttribute("class", "question inactive");   //current
    document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
 
-   svg.select("circle:nth-child(" + currentQ + ")").style("fill", "light green")
+   svg.select("circle:nth-child(" + currentQ + ")").style("fill", "pear")
    currentQ = currentQ + 1;
    // If currentQ == 26 then{document.getElementById("options").setAttribute("class", "option inactive"); }  
 
