@@ -9,12 +9,12 @@ document.addEventListener("DOMContentLoaded", function(event) {
   document.getElementById("question1").setAttribute("class", "question active"); //next
 });
 
-function show_next_question(color) {
+function show_next_question() {
  console.log(currentQ);
  document.getElementById("question" + currentQ).setAttribute("class", "question inactive");   //current
  document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
  
- svg.select("circle:nth-child(" + currentQ + ")").style("fill", "color")
+ svg.select("circle:nth-child(" + currentQ + ")").style("fill", "green")
  currentQ = currentQ + 1;
  // If currentQ == 26 then{document.getElementById("options").setAttribute("class", "option inactive"); }  
  
