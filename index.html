@@ -323,7 +323,7 @@ d3.json("miserables.json", function(error, graph) {
     .data(graph.nodes)
     .enter().append("circle")
       .attr("r", 8.2)
-      .attr("fill", "grey") // .attr("fill", function(d) { return color(d.group); })
+      .attr("fill", "gainsboro") // .attr("fill", function(d) { return color(d.group); })
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
