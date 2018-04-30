@@ -253,38 +253,43 @@
       Vetskapen att Sverige inte delar ut permanenta uppehållstillstånd har minskat trycket mot våra gränser. Fler på flykt väljer andra europeiska länder. Tillfälliga uppehållstillstånd ger flyktingar incitament att anstränga sig än mer i integrationsprocessen för att få stanna.
 
   </div>
+  <div id="question26" class="question">
+      Du är färdig ~
+  </div>
 </div>
   
 
+<div id="options">  
+    <div id="option">
+        <input name="option1" 
+               type="button" 
+               value="Instämmer helt" 
+               onclick="show_next_question()" 
+               // switch to group 5
+    </div>
+    <div id="option">
+        <input name="option2" 
+               type="button" 
+               value="Instämmer delvis" 
+               onclick="updateData()" />
+               // switch to group 9
+    </div>
+    <div id="option">
+        <input name="option3" 
+               type="button" 
+               value="Delvis emot" 
+               onclick="updateData()" />
+               // switch to group 3
+    </div>
+    <div id="option">
+        <input name="option4" 
+               type="button" 
+               value="Helt emot" 
+               onclick="updateData()" />
+               // switch to group 6
+    </div>
+</div>
   
-<div id="option">
-    <input name="option1" 
-           type="button" 
-           value="Instämmer helt" 
-           onclick="show_next_question()" 
-           // switch to group 5
-</div>
-<div id="option">
-    <input name="option2" 
-           type="button" 
-           value="Instämmer delvis" 
-           onclick="updateData()" />
-           // switch to group 9
-</div>
-<div id="option">
-    <input name="option3" 
-           type="button" 
-           value="Delvis emot" 
-           onclick="updateData()" />
-           // switch to group 3
-</div>
-<div id="option">
-    <input name="option4" 
-           type="button" 
-           value="Helt emot" 
-           onclick="updateData()" />
-           // switch to group 6
-</div>
 </body>
 
 <svg width="960" height="600"></svg>
