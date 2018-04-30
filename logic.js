@@ -14,7 +14,7 @@ function show_next_question() {
  document.getElementById("question" + currentQ).setAttribute("class", "question inactive");   //current
  document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
  
- svg.select("circle:nth-child(" + currentQ + ")").style("fill", "green")
+ svg.select("circle:nth-child(" + currentQ + ")").style("fill", "limegreen")
  currentQ = currentQ + 1;
  // If currentQ == 26 then{document.getElementById("options").setAttribute("class", "option inactive"); }  
  
@@ -25,7 +25,7 @@ function show_next_question() {
    document.getElementById("question" + currentQ).setAttribute("class", "question inactive");   //current
    document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
 
-   svg.select("circle:nth-child(" + currentQ + ")").style("fill", "chartreuse")
+   svg.select("circle:nth-child(" + currentQ + ")").style("fill", "greenyellow")
    currentQ = currentQ + 1;
    // If currentQ == 26 then{document.getElementById("options").setAttribute("class", "option inactive"); }  
 
@@ -47,7 +47,7 @@ function show_next_question() {
    document.getElementById("question" + currentQ).setAttribute("class", "question inactive");   //current
    document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
 
-   svg.select("circle:nth-child(" + currentQ + ")").style("fill", "red")
+   svg.select("circle:nth-child(" + currentQ + ")").style("fill", "orangered")
    currentQ = currentQ + 1;
    // If currentQ == 26 then{document.getElementById("options").setAttribute("class", "option inactive"); }  
 
