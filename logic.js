@@ -16,10 +16,11 @@ function show_next_question() {
  
  svg.select("circle:nth-child(" + currentQ + ")").style("fill", "green")
  currentQ = currentQ + 1;
- // We want to change group of [the node] to 'dark green'
- // Trick is that the id is currently "Klimatpolitik bör överordnas..." which can't be incremented.
- // TODO: remake so howering with cursor above text still shows text, but the id is a number.
- // document.getElementById("question" + currentQ).setAttribute("group", "5"); //remainder, "question" =/= node
- // svg.selectAll("circle").data().style("fill", "red") //Change the colour of currentNode to dark green. 
+ // If currentQ == 26 then{document.getElementById("options").setAttribute("class", "option inactive"); }  
  
+}
+
+function choose_3_important(d) {
+ // Show 25 options (reveal a div in html)
+ // Make a click increase the radius of 'd' by 2.5
 }
