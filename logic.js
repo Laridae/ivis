@@ -2,7 +2,7 @@ function start_question(){
  //tick
 }
 
-var currentQ = 1;
+var currentQ = 0;
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   //do work
