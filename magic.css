@@ -11,3 +11,10 @@ div.question{
 div.question.active{
     display: block   
 }
+
+div.options{
+    display: none;
+}
+div.options.active{
+    display: block   
+}
