@@ -26,7 +26,10 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function show_next_question() {
  console.log(currentQ);
  document.getElementById("question" + currentQ).setAttribute("class", "question inactive");   //current
- document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
+  document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
+  document.getElementById("question" + (currentQ+2)).setAttribute("class", "question active"); //next
+  document.getElementById("question" + (currentQ+3)).setAttribute("class", "question active"); //next
+  document.getElementById("question" + (currentQ+4)).setAttribute("class", "question active"); //next
  
  svg.select("circle:nth-child(" + currentQ + ")").style("fill", "limegreen")
  currentQ = currentQ + 1;
