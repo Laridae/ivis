@@ -12,10 +12,10 @@ div.question.active{
     display: block   
 }
 
-    div.options{
+    div.option{
         display: none;
     }
-    div.options.active{
+    div.option.active{
         display: block   
     }
 
