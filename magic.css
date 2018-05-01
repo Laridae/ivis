@@ -16,7 +16,7 @@ div.question.active{
         display: none;
     }
     div.option.active{
-        display:   
+        display: block  
     }
 
     div.start_option{
