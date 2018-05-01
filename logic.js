@@ -7,7 +7,7 @@ var currentQ = 0; //Changed from 1
 document.addEventListener("DOMContentLoaded", function(event) { 
   //do work
   document.getElementById("question0").setAttribute("class", "question active"); //changed from 1
-  document.getElementById("start_option").setAttribute("class", "question active");
+  //document.getElementById("start_option").setAttribute("class", "question active");
 });
 
   // Quick fix for the start button
