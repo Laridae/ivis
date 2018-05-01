@@ -12,9 +12,16 @@ div.question.active{
     display: block   
 }
 
-div.options{
-    display: none;
-}
-div.options.active{
-    display: block   
-}
+    div.options{
+        display: none;
+    }
+    div.options.active{
+        display: block   
+    }
+
+    div.start_option{
+        display: none;
+    }
+    div.start_option.active{
+        display: block   
+    }
