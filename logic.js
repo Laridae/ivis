@@ -2,11 +2,11 @@ function start_question(){
  //tick
 }
 
-var currentQ = 0;
+var currentQ = 0; //Changed from 1
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   //do work
-  document.getElementById("question0").setAttribute("class", "question active"); //next
+  document.getElementById("question0").setAttribute("class", "question active"); //changed from 1
 });
 
 function show_next_question() {
