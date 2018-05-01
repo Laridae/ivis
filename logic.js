@@ -33,7 +33,12 @@ function show_next_question() {
  
  svg.select("circle:nth-child(" + currentQ + ")").style("fill", "limegreen")
  currentQ = currentQ + 1;
- // If currentQ == 26 then{document.getElementById("options").setAttribute("class", "option inactive"); }  
+ If currentQ == 26 then{
+   document.getElementById("option1").setAttribute("class", "question inactive");
+   document.getElementById("option2").setAttribute("class", "question inactive");
+   document.getElementById("option3").setAttribute("class", "question inactive");
+   document.getElementById("option4").setAttribute("class", "question inactive");
+ }  
  
 }
 
