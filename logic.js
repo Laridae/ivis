@@ -6,7 +6,7 @@ var currentQ = 0;
 
 document.addEventListener("DOMContentLoaded", function(event) { 
   //do work
-  document.getElementById("question1").setAttribute("class", "question active"); //next
+  document.getElementById("question0").setAttribute("class", "question active"); //next
 });
 
 function show_next_question() {
