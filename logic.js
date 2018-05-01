@@ -18,6 +18,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 
    document.getElementById("start_option").setAttribute("class", "option inactive");
    document.getElementById("option1").setAttribute("class", "question active");
+   document.getElementById("option2").setAttribute("class", "question active");
+   document.getElementById("option3").setAttribute("class", "question active");
+   document.getElementById("option4").setAttribute("class", "question active");
    currentQ = currentQ + 1;
    // If currentQ == 26 then{document.getElementById("options").setAttribute("class", "option inactive"); }  
 
@@ -26,10 +29,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 function show_next_question() {
  console.log(currentQ);
  document.getElementById("question" + currentQ).setAttribute("class", "question inactive");   //current
-  document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
-  document.getElementById("question" + (currentQ+2)).setAttribute("class", "question active"); //next
-  document.getElementById("question" + (currentQ+3)).setAttribute("class", "question active"); //next
-  document.getElementById("question" + (currentQ+4)).setAttribute("class", "question active"); //next
+ document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
  
  svg.select("circle:nth-child(" + currentQ + ")").style("fill", "limegreen")
  currentQ = currentQ + 1;
