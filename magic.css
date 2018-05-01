@@ -12,6 +12,10 @@ div.question.active{
     display: block   
 }
 
+div#questions{
+    height: 300px;
+}
+
     div.option{
         display: none;
     }
