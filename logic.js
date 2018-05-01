@@ -7,7 +7,20 @@ var currentQ = 0; //Changed from 1
 document.addEventListener("DOMContentLoaded", function(event) { 
   //do work
   document.getElementById("question0").setAttribute("class", "question active"); //changed from 1
+  document.getElementById("start_option").setAttribute("class", "question active");
 });
+
+  // Quick fix for the start button
+  function mission_start() {
+   console.log(currentQ);
+   document.getElementById("question" + currentQ).setAttribute("class", "question inactive");   //current
+   document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
+
+   document.getElementById("start_option").setAttribute("class", "question inactive");
+   currentQ = currentQ + 1;
+   // If currentQ == 26 then{document.getElementById("options").setAttribute("class", "option inactive"); }  
+
+  }
 
 function show_next_question() {
  console.log(currentQ);
