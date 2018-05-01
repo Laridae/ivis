@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
    document.getElementById("question" + (currentQ+1)).setAttribute("class", "question active"); //next
 
    document.getElementById("start_option").setAttribute("class", "option inactive");
-   document.getElementById("options").setAttribute("class", "option active");
+   document.getElementById("options").setAttribute("class", "question active");
    currentQ = currentQ + 1;
    // If currentQ == 26 then{document.getElementById("options").setAttribute("class", "option inactive"); }  
 
