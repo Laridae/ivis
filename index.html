@@ -372,6 +372,15 @@ d3.json("miserables.json", function(error, graph) {
           .on("start", dragstarted)
           .on("drag", dragged)
           .on("end", dragended));
+  
+  //Here we makes 9 special nodes, each being filled in with a .jpg instead.
+  //it seems we need a svg pattern?
+    var node = svg.append("g")
+      .attr("class", "nodes")
+    .data(graph.nodes.v)
+    .enter().append("/ivis/v.jpg")
+      .attr("fill", "/ivis/v.jpg") 
+  //https://github.com/Laridae/ivis/blob/master/v.jpg
 
   node.append("title")
       .text(function(d) { return d.id; });
