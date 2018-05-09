@@ -25,15 +25,15 @@
     {"id": "Polisen ska få bättre tillgång till kameraövervakning", "group": 3},
     {"id": "Varje form av stöd till terrorism ska kriminaliseras", "group": 4},
     {"id": "Rut-avdraget ska tredubblas", "group": 5},
-    {"id": "KD", "group": 9},
-    {"id": "L", "group": 9},
-    {"id": "M", "group": 9},
-    {"id": "C", "group": 9},
-    {"id": "S", "group": 9},
-    {"id": "MP", "group": 6},
+    {"id": "KD", "group": 9, "image": "https://laridae.github.io/ivis/assets/kd.jpg"},
+    {"id": "L", "group": 9, "image": "https://laridae.github.io/ivis/assets/Liberalerna.jpg"},
+    {"id": "M", "group": 9, "image": "https://laridae.github.io/ivis/assets/m.jpg"},
+    {"id": "C", "group": 9, "image": "https://laridae.github.io/ivis/assets/c.jpg"},
+    {"id": "S", "group": 9, "image": "https://laridae.github.io/ivis/assets/s.jpg"},
+    {"id": "MP", "group": 6, "image": "https://laridae.github.io/ivis/assets/mp.jpg"},
     {"id": "V", "group": 7, "image": "https://laridae.github.io/ivis/assets/v.jpg"},
     {"id": "SD", "group": 8, "image": "https://laridae.github.io/ivis/assets/sd.jpg"},
-    {"id": "Fi", "group": 9}
+    {"id": "Fi", "group": 9, "image": "https://laridae.github.io/ivis/assets/fi.jpg"}
   ],
   "links": [
     {"source": "KD", "target": "Klimatpolitiken ska överordnas annan politik", "value": 5, "distance": 100},
