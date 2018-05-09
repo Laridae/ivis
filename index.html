@@ -431,8 +431,10 @@ node.enter().append("circle")
     node
         //.attr("cx", function(d) { return d.x; })
         //.attr("cy", function(d) { return d.y; });
-	  
-	.attr("transform", function(d) {
+	
+    	
+	.attr("transform", function(d) { 
+	    	console.log("Hej Jesper")
     		return "translate(" + d.x + "," +  d.y + ")";
   	})
      };
