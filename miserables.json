@@ -31,8 +31,8 @@
     {"id": "C", "group": 9},
     {"id": "S", "group": 9},
     {"id": "MP", "group": 6},
-    {"id": "V", "group": 7, "image": "{{https://laridae.github.io/ivis}}/assets/v.jpg"},
-    {"id": "SD", "group": 8, "image": "{{https://laridae.github.io/ivis}}/assets/sd.jpg"},
+    {"id": "V", "group": 7, "image": "https://laridae.github.io/ivis/assets/v.jpg"},
+    {"id": "SD", "group": 8, "image": "https://laridae.github.io/ivis/assets/sd.jpg"},
     {"id": "Fi", "group": 9}
   ],
   "links": [
