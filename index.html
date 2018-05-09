@@ -422,6 +422,7 @@ node.enter().append("circle")
      
 
   function ticked() {
+    console.log("Dacke kommer!")
     link
         .attr("x1", function(d) { return d.source.x; })
         .attr("y1", function(d) { return d.source.y; })
@@ -434,8 +435,8 @@ node.enter().append("circle")
 	
     	
 	node.attr("transform", function(d) { 
-	    	console.log("Hej Jesper")
-    		return "translate(" + d.x + "," +  d.y + ")";
+		console.log("Hej Jesper")
+		return "translate(" + d.x + "," +  d.y + ")";
   	})
      };
 })
