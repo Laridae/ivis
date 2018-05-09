@@ -389,6 +389,21 @@ d3.json("miserables.json", function(error, graph) {
 
   node.append("title")
       .text(function(d) { return d.id; });
+  
+  node.select("#KD")
+      .append("pattern")
+      //.attr("id", function(d) {return d.id})
+      .attr("class", "svg-image")
+      .attr("x", "0")
+      .attr("y", "0")
+      .attr("height", "1")
+      .attr("width", "1")
+      .append("image")
+        .attr("x", "0")
+        .attr("y", "0")
+        .attr("height", "70px")
+        .attr("width", "70px")
+        .attr("xlink:href", "https://laridae.github.io/ivis/assets/kd.jpg")
 
   simulation
       .nodes(graph.nodes)
