@@ -367,12 +367,16 @@ d3.json("miserables.json", function(error, graph) {
     .data(graph.nodes)
     .enter().append("circle")
       .attr("r", 8.2)
-      .attr("fill", "gainsboro") // .attr("fill", function(d) { return color(d.group); })
+      .attr("fill", "gainsboro") 
+      .attr("id", function(d) { return d.id; })
       .call(d3.drag()
           .on("start", dragstarted)
           .on("drag", dragged)
           .on("end", dragended));
-  /*
+  
+
+  
+  /* Ignore
   //Here we makes 9 special nodes, each being filled in with a .jpg instead.
   //it seems we need a svg pattern?
     var node = svg.append("g")
