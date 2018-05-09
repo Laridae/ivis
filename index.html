@@ -419,7 +419,6 @@ node.enter().append("circle")
      })
      */
 
-})
      
 
   function ticked() {
@@ -436,7 +435,8 @@ node.enter().append("circle")
 	.attr("transform", function(d) {
     		return "translate(" + d.x + "," +  d.y + ")";
   	})
-};
+     };
+})
 
 function dragstarted(d) {
   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
