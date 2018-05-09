@@ -384,8 +384,8 @@ node.enter().append("circle")
             .attr('patternContentUnits', 'objectBoundingBox')
             .append("svg:image")
                 .attr("xlink:xlink:href", function(d) { return (d.image);}) // "icon" is my image url. It comes from json too. The double xlink:xlink is a necessary hack (first "xlink:" is lost...).
-                .attr("x", 0)
-                .attr("y", 0)
+             //   .attr("x", 0)
+             //   .attr("y", 0)
                 .attr("height", 1)
                 .attr("width", 1)
 				.attr("preserveAspectRatio", "xMinYMin slice");
