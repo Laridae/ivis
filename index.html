@@ -366,29 +366,29 @@ d3.json("miserables.json", function(error, graph) {
 	 .selectAll("circle")
 	 .data(graph.nodes)
     
-node.enter().append("circle")
-	.attr("r", 8.2)
-	.attr("fill", "gainsboro") 
-	.style("fill", function(d) { return ("url(#"+d.id+"-image)");})
-	.attr("id", function(d) { return d.id; })
-	.call(d3.drag()
-	  .on("start", dragstarted)
-	  .on("drag", dragged)
-	  .on("end", dragended));
+  var nodes = node.enter().append("circle")
+  	.attr("r", 8.2)
+  	.attr("fill", "gainsboro") 
+  	.style("fill", function(d) { return ("url(#"+d.id+"-image)");})
+  	.attr("id", function(d) { return d.id; })
+  	.call(d3.drag()
+  	  .on("start", dragstarted)
+  	  .on("drag", dragged)
+  	  .on("end", dragended));
   
-    node.enter().append('defs')
-        .append('pattern')
-            .attr('id', function(d) { return (d.id+"-image");}) // just create a unique id (id comes from the json)
-            .attr('width', 1)
-            .attr('height', 1)
-            .attr('patternContentUnits', 'objectBoundingBox')
-            .append("svg:image")
-                .attr("xlink:xlink:href", function(d) { return (d.image);}) // "icon" is my image url. It comes from json too. The double xlink:xlink is a necessary hack (first "xlink:" is lost...).
-             //   .attr("x", 0)
-             //   .attr("y", 0)
-                .attr("height", 1)
-                .attr("width", 1)
-				.attr("preserveAspectRatio", "xMinYMin slice");
+  node.enter().append('defs')
+      .append('pattern')
+          .attr('id', function(d) { return (d.id+"-image");}) // just create a unique id (id comes from the json)
+          .attr('width', 1)
+          .attr('height', 1)
+          .attr('patternContentUnits', 'objectBoundingBox')
+          .append("svg:image")
+              .attr("xlink:xlink:href", function(d) { return (d.image);}) // "icon" is my image url. It comes from json too. The double xlink:xlink is a necessary hack (first "xlink:" is lost...).
+           //   .attr("x", 0)
+           //   .attr("y", 0)
+              .attr("height", 1)
+              .attr("width", 1)
+			.attr("preserveAspectRatio", "xMinYMin slice");
   
   /* Ignore
   //Here we makes 9 special nodes, each being filled in with a .jpg instead.
@@ -434,11 +434,11 @@ node.enter().append("circle")
         //.attr("cy", function(d) { return d.y; });
 	
     	
-	node.attr("transform", function(d) { 
-		console.log("Hej Jesper")
-		return "translate(" + d.x + "," +  d.y + ")";
+  	nodes.attr("transform", function(d) { 
+  		console.log("Hej Jesper")
+  		return "translate(" + d.x + "," +  d.y + ")";
   	})
-     };
+  };
 })
 
 function dragstarted(d) {
