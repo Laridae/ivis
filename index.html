@@ -431,9 +431,9 @@ node.enter().append("circle")
         //.attr("cx", function(d) { return d.x; })
         //.attr("cy", function(d) { return d.y; });
 	  
-	.attr("transform", function(d)) {
-    	return "translate(" + d.x + "," +  d.y + ")";
-  }
+	.attr("transform", function(d) {
+    		return "translate(" + d.x + "," +  d.y + ")";
+  	})
 });
 
 function dragstarted(d) {
