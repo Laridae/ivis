@@ -367,7 +367,7 @@ d3.json("miserables.json", function(error, graph) {
     .data(graph.nodes)
     .enter().append("circle")
       .attr("r", 8.2)
-  //  .attr("fill", "gainsboro") 
+      .attr("fill", "gainsboro") 
       .style("fill", function(d) { return ("url(#"+d.id+"-image)");})
       .attr("id", function(d) { return d.id; })
       .call(d3.drag()
