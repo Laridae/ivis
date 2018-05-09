@@ -362,18 +362,19 @@ d3.json("miserables.json", function(error, graph) {
       .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
   var node = svg.append("g")
-      .attr("class", "nodes")
-    .selectAll("circle")
-    .data(graph.nodes)
-    .enter().append("circle")
-      .attr("r", 8.2)
-      .attr("fill", "gainsboro") 
-      .style("fill", function(d) { return ("url(#"+d.id+"-image)");})
-      .attr("id", function(d) { return d.id; })
-      .call(d3.drag()
-          .on("start", dragstarted)
-          .on("drag", dragged)
-          .on("end", dragended));
+	 .attr("class", "nodes")
+	 .selectAll("circle")
+	 .data(graph.nodes)
+    
+node.enter().append("circle")
+	.attr("r", 8.2)
+	.attr("fill", "gainsboro") 
+	.style("fill", function(d) { return ("url(#"+d.id+"-image)");})
+	.attr("id", function(d) { return d.id; })
+	.call(d3.drag()
+	  .on("start", dragstarted)
+	  .on("drag", dragged)
+	  .on("end", dragended));
   
     node.enter().append('defs')
         .append('pattern')
