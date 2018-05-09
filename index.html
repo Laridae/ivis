@@ -390,7 +390,7 @@ d3.json("miserables.json", function(error, graph) {
   node.append("title")
       .text(function(d) { return d.id; });
   
-  node.select.enter("#KD")
+  node.select("#KD").enter()
       .append("pattern")
       //.attr("id", function(d) {return d.id})
       .attr("class", "svg-image")
